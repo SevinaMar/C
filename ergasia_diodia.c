@@ -29,8 +29,7 @@ int main ()
 			 			break;	
 				 	}	}  
 			else {f++;
-			printf("Please enter T, C or M:\n");
-			 					scanf(" %c",&oxhma);
+			printf("Please enter T, C or M!");
 						 }		
 	}
 			printf("\nThat's all for today.\n%d vehicles have passed.\n You collected %.2f euros.",times, sum);
