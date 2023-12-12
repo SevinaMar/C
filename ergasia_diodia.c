@@ -1,4 +1,8 @@
 #include <stdio.h>
+#define TRUCK_PRICE 4.80
+#define CAR_PRICE 1.90
+#define MOTO_PRICE 1.30
+
 int main ()
 {
 	char oxhma;
@@ -15,17 +19,17 @@ int main ()
 			 		{ 	case 'T':
 			 			case 't':
 			 			printf("Nice truck, you have to pay 4.80 euros.\n");
-			 			sum=sum+4.80;
+			 			sum=sum+TRUCK_PRICE;
 			 			break;
 			 			case 'C':
 			 			case 'c':
 			 			printf("Nice car, you have to pay 1.90 euros.\n");
-			 			sum=sum+1.90;
+			 			sum=sum+CAR_PRICE;
 			 			break;
 			 			case 'M':
 			 			case 'm':
 			 			printf("Nice motorcycle, you have to pay 1.30 euros.\n");
-			 			sum=sum+1.30;
+			 			sum=sum+MOTO_PRICE;
 			 			break;	
 				 	}	}  
 			else {f++;
