@@ -9,12 +9,11 @@ int main ()
 		scanf("%d", &ari8mos);	
 	while (ari8mos>0){
 		 square=pow(ari8mos,2);
-		printf("%d squared is %d\n", ari8mos, square);
+		printf("%d squared is %d\n", ari8mos, square);	
+		 time++;
 		printf("\nSelect an integer %d:\n", time);
 		scanf("%d", &ari8mos);
-		time++;
-		
-		
+				
 	} 
 	if (ari8mos<0){
 		printf("%d is a negative number.\n", ari8mos);
