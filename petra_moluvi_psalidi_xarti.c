@@ -72,7 +72,8 @@ int main()
 		else
 		printf("\n\nIt's a tie!");
 		}	
-	else;
+	else
+		printf("Invalid iput");
 			
 	
 	return 0;
