@@ -16,14 +16,13 @@ while (seira[i]!='\0')
 		}
 	printf("There are %d o's in your entry.\n ", omikron);
 	
-	int *point=seira;
-	printf("%c\n", *point);
+	char *point=seira; //EDW HTAN TO LATHOS<<<
+	
 	
 	while(*point!='\0')
 		{ 	if(*point=='O')
 			omikron_p++;
-			printf("%c\n", *point);
-			*point++;
+			point++; //KI EDW<<<
 		}
 	printf("I calculated %d o's using pointers.", omikron_p);
 	return 0;
